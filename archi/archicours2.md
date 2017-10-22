@@ -25,7 +25,7 @@ Ces deux points ne sont pas propres a la cohérence.
   * Avantage des mises a jour: évite des futurs miss potentiels
   * Avantage des invalidations: évite de générer plein de requêtes de mise a jour (update) vers des copies qui ne sont pas utilisées
 
-En pratique, toutes les combinaisons ne pas possibles/pertinentes.
+En pratique, toutes les combinaisons ne sont pas possibles/pertinentes.
 
 Exemple:
 * WTI (Write-Through Invalidate), write non allocate (snoop, dir)
